@@ -4,16 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/color_uno"
+    >
+
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_width="163dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="44dp"
         android:text="Bienvenidos a Soccer Play!"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.568"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,8 +26,8 @@
         android:layout_height="76dp"
         android:text="Partidos en vivo"
         android:textColor="@color/teal_700"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="72dp" />
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="116dp" />
 
     <Button
         android:id="@+id/button2"
@@ -32,8 +35,8 @@
         android:layout_height="76dp"
         android:text="FECHA DE PARTIDOS"
         android:textColor="@color/teal_700"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="189dp" />
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="238dp" />
 
     <Button
         android:id="@+id/button3"
@@ -41,7 +44,8 @@
         android:layout_height="74dp"
         android:text="TABLA DE POSICIONES"
         android:textColor="@color/teal_700"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="295dp" />
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="396dp" />
+
 
 </android.support.constraint.ConstraintLayout>
